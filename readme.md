@@ -5,8 +5,8 @@
 <!-- markdownlint-disable MD033 -->
 <table>
   <tr>
-    <td align="center" style="width:33%;"><b>核心功能：常驻数据窗口</b></td>
-    <td align="center" style="width:67%;"><b>核心功能：对局内OCR助手</b></td>
+    <td align="center" width="33%"><b>核心功能：常驻数据窗口</b></td>
+    <td align="center" width="67%"><b>核心功能：对局内OCR助手</b></td>
   </tr>
   <tr>
     <td><img src="images/常驻数据窗口交互演示.gif" alt="常驻数据窗口交互演示" style="width:100%;"/></td>
@@ -93,13 +93,13 @@
   我将所有零散的数据爬取脚本，通过父子进程调用的形式，集成到了一个独立的GUI运维页面。原先需要手动、依次执行的多个易错步骤，现在**一键即可完成，极大地降低了操作复杂度和出错风险，保障了核心数据的准确性与更新效率。**
 
   <!-- markdownlint-disable-next-line MD033 -->
-  <img src="images/数据爬取上传集成.png" alt="数据运维控制台" style="max-width:700px; width:100%;"/>
+  <img src="images/数据爬取上传集成.png" alt="数据运维控制台" style="max-width:300px; width:100%;"/>
 
 - **实现独立的版本控制与发布：**
   我为软件构建了独立的版本管理与发布界面，用于控制版本号、上传数据库文件以及打包发布软件本身。**这确保了任何关键的缺陷修复和功能更新，都能在第一时间、可靠地推送给所有用户。**
 
   <!-- markdownlint-disable-next-line MD033 -->
-  <img src="images/软件版本控制及发布.png" alt="版本发布控制台" style="max-width:700px; width:100%;"/>
+  <img src="images/软件版本控制及发布.png" alt="版本发布控制台" style="max-width:300px; width:100%;"/>
 
 - **实施模块化架构重构：**
   我主动将初期的"单体式架构"重构为"模块化"架构。**这极大地提升了软件的可测试性**——未来任何一个模块的修改，都可以在不影响其他模块的情况下进行独立的单元测试和回归测试。
